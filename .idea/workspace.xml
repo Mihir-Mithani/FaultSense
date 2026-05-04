@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25280c0f-fee4-4f05-bf0d-91dfd7fa214c" name="Changes" comment="added Split Combination of 50,20,30 / 50,30,20 with new features on synthetic dataset.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="25280c0f-fee4-4f05-bf0d-91dfd7fa214c" name="Changes" comment="Project Structure File." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -384,7 +382,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775874541981</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Project Structure File.">
+      <option name="closed" value="true" />
+      <created>1777866917450</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1777866917450</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -415,7 +421,8 @@
     <MESSAGE value="removed Split Combination of 50,20,30 / 50,30,20" />
     <MESSAGE value="update" />
     <MESSAGE value="added Split Combination of 50,20,30 / 50,30,20 with new features on synthetic dataset." />
-    <option name="LAST_COMMIT_MESSAGE" value="added Split Combination of 50,20,30 / 50,30,20 with new features on synthetic dataset." />
+    <MESSAGE value="Project Structure File." />
+    <option name="LAST_COMMIT_MESSAGE" value="Project Structure File." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Trial_AI_ProjDATASET$main.coverage" NAME="main Coverage Results" MODIFIED="1773804437118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
