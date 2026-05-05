@@ -269,7 +269,7 @@ Returns the current model configuration and test-set performance metrics.
 
 ## Running the Hyperparameter Search
 
-To reproduce the full grid search (warning: this takes significant time â€” ~13,650 model fits):
+To reproduce the full grid search (warning: this takes significant time  ~13,650 model fits):
 =======
 To reproduce the full grid search (warning: this takes significant time — ~13,650 model fits):
 
@@ -280,14 +280,14 @@ python main10_claude_combnation.py
 Results are saved to `results/synthetic/dense_results.csv` and `dense_results.xlsx`. Six diagnostic plots are saved to `Synthetic1/synthetic_plot/`:
 
 
-- Validation metric heatmaps (LR Ã— n_estimators)
+- Validation metric heatmaps (LR — n_estimators)
 - Metrics vs n_estimators per split ratio
 - Metrics vs learning rate per split ratio
 - Train vs validation curves (best split)
-- Overfitting heatmap (train AUC âˆ’ val AUC)
+- Overfitting heatmap (train AUC ’ val AUC)
 - Top-30 config scatter (val F1 vs val AUC)
 
-The search supports **checkpointing** â€” if interrupted, it resumes from where it left off.
+The search supports **checkpointing**  if interrupted, it resumes from where it left off.
 =======
 - Validation metric heatmaps (LR × n_estimators)
 - Metrics vs n_estimators per split ratio
