@@ -65,7 +65,7 @@ print(f"TOTAL RUNS      : {len(LEARNING_RATES) * len(N_ESTIMATORS) * len(SPLIT_R
 # ──────────────────────────────────────────────
 # CONFIG
 # ──────────────────────────────────────────────
-DATA_PATH    = "synthetic_nim_parallel_10000.csv"
+DATA_PATH    = "Fault_Detection_For_Industry/synthetic_nim_parallel_10000.csv"
 DROP_COLS    = ["location"]
 TARGET       = "faulty"
 CAT_COLS     = ["equipment"]
@@ -84,8 +84,8 @@ FIXED_PARAMS = dict(
     verbose=-1,
 )
 
-RESULTS_DIR = "results/synthetic"
-PLOTS_DIR   = "Synthetic1/synthetic_plot"
+RESULTS_DIR = "Final_Result"
+PLOTS_DIR   = "Final_Result/synthetic_plot"
 os.makedirs(RESULTS_DIR, exist_ok=True)
 os.makedirs(PLOTS_DIR,   exist_ok=True)
 

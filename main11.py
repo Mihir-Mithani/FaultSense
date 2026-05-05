@@ -38,6 +38,7 @@ SPLIT_RATIOS = [
     (0.50, 0.20, 0.30),
     (0.50, 0.30, 0.20)
 ]
+#~/research-bot/frontend/close_apps.sh
 
 print(f"max_features    : {len(MAX_FEATURES)} values -> {MAX_FEATURES}")
 print(f"n_estimators    : {len(N_ESTIMATORS)} values -> {N_ESTIMATORS}")
@@ -65,8 +66,8 @@ FIXED_PARAMS = dict(
 )
 
 
-RESULTS_DIR = "results/synthetic"
-PLOTS_DIR   = "Synthetic1/synthetic_plot"
+RESULTS_DIR = "Final_Result"
+PLOTS_DIR   = "Final_Result/Plots"
 os.makedirs(RESULTS_DIR, exist_ok=True)
 os.makedirs(PLOTS_DIR,   exist_ok=True)
 
