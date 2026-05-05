@@ -147,14 +147,14 @@ Python 3.9 or higher is recommended.
 The primary dataset (`synthetic_nim_parallel_10000.csv`) contains **10,000 synthetic sensor readings** generated in parallel to simulate realistic industrial conditions.
 
 | Feature | Type | Range | Description |
-|---|---|---|---|
+|---|---|--|---|
 | `equipment` | Categorical | pump, compressor, motor, valve, sensor | Equipment type |
-| `temperature` | Float | â€“20 to 120 Â°C | Operating temperature |
+| `temperature` | Float | 20 to 120 °C | Operating temperature |
 | `pressure` | Float | 0 to 20 bar | Internal pressure |
 | `vibration` | Float | 0 to 50 mm/s | Vibration level |
 | `humidity` | Float | 0 to 100 % | Ambient humidity |
-| `location` | Categorical | â€” | Installation location (dropped at training) |
-| `faulty` | Binary | 0 / 1 | **Target** â€” 0 = healthy, 1 = faulty |
+| `location` | Categorical |  | Installation location (dropped at training) |
+| `faulty` | Binary | 0 / 1 | **Target**  0 = healthy, 1 = faulty |
 =======
 | `temperature` | Float | –20 to 120 °C | Operating temperature |
 | `pressure` | Float | 0 to 20 bar | Internal pressure |
@@ -304,7 +304,7 @@ The search supports **checkpointing** — if interrupted, it resumes from where 
 
 To force a full retrain (ignoring any saved model):
 
-```bash
+```
 # Delete the saved model, then run the app
 rm faultsense_model.joblib
 python app.py
