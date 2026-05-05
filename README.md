@@ -14,11 +14,11 @@
 
 FaultSense takes live sensor readings from industrial equipment â€” temperature, pressure, vibration, and humidity â€” and predicts in real time whether the equipment is **healthy** or **faulty**. It includes a full ML pipeline from synthetic data generation through hyperparameter search to a production-ready web interface.
 
-**Equipment types supported:** Pump Â· Compressor Â· Motor Â· Valve Â· Sensor
+**Equipment types supported:** Pump · Compressor · Motor · Valve · Sensor
 =======
 FaultSense takes live sensor readings from industrial equipment — temperature, pressure, vibration, and humidity — and predicts in real time whether the equipment is **healthy** or **faulty**. It includes a full ML pipeline from synthetic data generation through hyperparameter search to a production-ready web interface.
 
-**Equipment types supported:** Pump · Compressor · Motor · Valve · Sensor
+**Equipment types supported : Pump · Compressor · Motor · Valve · Sensor**
 
 
 ---
