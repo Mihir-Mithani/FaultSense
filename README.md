@@ -60,7 +60,6 @@ The web UI lets you drag sensor sliders and get an instant fault prediction with
 ├── analysis/                       # Additional analysis outputs
 ├── industrial-equipment-monitoring-dataset/  # Raw dataset folder
 └── synthetics3/                    # Additional synthetic data variants
->>>>>>> b15537eb3e9dd204e5b8e41c9dc55321f7eae6d6
 ```
 
 ---
