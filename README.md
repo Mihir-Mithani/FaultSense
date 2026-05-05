@@ -67,13 +67,13 @@ The web UI lets you drag sensor sliders and get an instant fault prediction with
 ## Features
 
 
-- **Binary fault classification** â€” predicts `FAULTY` or `HEALTHY` with probability score
-- **Confidence levels** â€” HIGH / MEDIUM / LOW based on prediction probability
-- **Live web UI** â€” interactive sliders for all sensor inputs, dark-mode interface
-- **Prediction history** â€” last 20 predictions shown in-session
-- **Model info panel** â€” displays test AUC, F1, accuracy, precision, and recall live in the UI
-- **REST API** â€” `/predict` endpoint accepts JSON for programmatic use
-- **Auto train or load** â€” automatically retrains if no saved model is found
+- **Binary fault classification**  predicts `FAULTY` or `HEALTHY` with probability score
+- **Confidence levels**  HIGH / MEDIUM / LOW based on prediction probability
+- **Live web UI**  interactive sliders for all sensor inputs, dark-mode interface
+- **Prediction history**  last 20 predictions shown in-session
+- **Model info panel** displays test AUC, F1, accuracy, precision, and recall live in the UI
+- **REST API** `/predict` endpoint accepts JSON for programmatic use
+- **Auto train or load**  automatically retrains if no saved model is found
 =======
 - **Binary fault classification** — predicts `FAULTY` or `HEALTHY` with probability score
 - **Confidence levels** — HIGH / MEDIUM / LOW based on prediction probability
@@ -90,21 +90,21 @@ The web UI lets you drag sensor sliders and get an instant fault prediction with
 
 ### 1. Clone the repository
 
-```bash
+```
 git clone https://github.com/techavenger123/Trial_AI_ProjDATASET.git
 cd Trial_AI_ProjDATASET
 ```
 
 ### 2. Install dependencies
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
 ### 3. Run the app
 
-```bash
-python app.py
+```
+python app3.py
 ```
 
 On first run, if `faultsense_model.joblib` is not present, the model will train automatically using `synthetic_nim_parallel_10000.csv`. This takes under a minute.
@@ -133,7 +133,7 @@ openpyxl
 
 Install all at once:
 
-```bash
+```
 pip install flask lightgbm scikit-learn pandas numpy joblib matplotlib tqdm openpyxl
 ```
 
@@ -272,7 +272,7 @@ To reproduce the full grid search (warning: this takes significant time  ~13,650
 =======
 To reproduce the full grid search (warning: this takes significant time — ~13,650 model fits):
 
-```bash
+```
 python main10_claude_combnation.py
 ```
 
