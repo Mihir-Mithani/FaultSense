@@ -335,13 +335,7 @@ Or edit `BEST_CONFIG` in `app.py` to change hyperparameters before retraining.
 
 This project was built iteratively, with experiment scripts versioned as `main.py` through `main11.py`. Scripts `main9_by_claude.py` and `main10_claude_combnation.py` reflect AI-assisted development using Claude.
 
----
 
-## License
-
-MIT License. See `LICENSE` for details.
-
----
 
 ## Contributing
 
